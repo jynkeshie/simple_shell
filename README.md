@@ -1,29 +1,52 @@
-0x16. C - Simple Shell
-Resources
-Read or watch:
+# Simple Shell Project
 
-Unix shell
-Thompson shell
-Ken Thompson
-Everything you need to know to start coding your own shell concept page
-man or help:
+This is a simple Unix-like shell implementation created as part of a project. It provides basic shell functionalities and is designed for educational purposes.
 
-sh (Run sh as well)
-Learning Objectives
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
+## Files
 
-General
-Who designed and implemented the original Unix operating system
-Who wrote the first version of the UNIX shell
-Who invented the B programming language (the direct predecessor to the C programming language)
-Who is Ken Thompson
-How does a shell work
-What is a pid and a ppid
-How to manipulate the environment of the current process
-What is the difference between a function and a system call
-How to create processes
-What are the three prototypes of main
-How does the shell use the PATH to find the programs
-How to execute another program with the execve system call
-How to suspend the execution of a process until one of its children terminates
-What is EOF / “end-of-file”?
+Here is a list of all the files in this project:
+
+- `alias_history.c`: Handles alias and history functionalities.
+- `command_handlers.c`: Implements command handling functions.
+- `environment.c`: Manages environment variables and related functions.
+- `exit`: Contains code for the exit command.
+- `header_file.h`: Header file for the project.
+- `info_utils.c`: Contains utility functions for managing information.
+- `main.c`: Main program file.
+- `path_resolution.c`: Handles path resolution for commands.
+- `string_operations.c`: Contains string manipulation functions.
+- `string_utils.c`: Provides various string utility functions.
+
+## Additional Files
+
+- `AUTHORS`: List of authors contributing to the project.
+- `commands_history.c`: Handles command history.
+- `error_handling.c`: Implements error handling.
+- `getenviron.c`: Retrieves environment variables.
+- `help`: Contains help command information.
+- `linked_list.c`: Implements linked list data structures.
+- `memory_management.c`: Manages memory allocation and deallocation.
+- `README.md`: This README file.
+- `string_tokenizer.c`: Contains functions for tokenizing strings.
+- `utility_functions.c`: Provides various utility functions.
+- `changedirectory`: Handles changing the current directory.
+- `echo`: Implements the echo command.
+- `errors_handling.c`: Handles different types of errors.
+- `getLine.c`: Reads input lines.
+- `hsh`: Main shell program.
+- `linked_lists1.c`: Implements additional linked list functions.
+- `memory_util.c`: Additional memory management functions.
+- `shell_execution.c`: Handles shell command execution.
+- `string_utils1.c`: Provides more string utility functions.
+- `var_replacement.c`: Handles variable replacements.
+
+## Usage
+
+To use the Simple Shell, compile and run the `hsh` program. You can execute various Unix-like shell commands and navigate through directories.
+
+## Author
+
+This Simple Shell project was developed by the contributors listed in the AUTHORS file.
+
+Feel free to explore the code and use this project for educational purposes or as a reference for creating your own shell.
+?
